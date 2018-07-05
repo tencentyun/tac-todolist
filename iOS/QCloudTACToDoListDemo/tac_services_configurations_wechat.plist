@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>services</key>
+	<dict>
+		<key>social</key>
+		<dict>
+			<key>wechat</key>
+			<dict>
+				<key>appId</key>
+				<string>wx48a9239cdd80ae31</string>
+				<key>appKey</key>
+				<string>e6a2d436d3091d898f18c8fc9bedfcd4</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

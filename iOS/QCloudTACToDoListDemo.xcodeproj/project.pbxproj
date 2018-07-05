@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BFDF0A18FAE2612854CEDFF /* Pods_QCloudTACToDoListDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA99A0F2D308C78B28922448 /* Pods_QCloudTACToDoListDemo.framework */; };
+		A816FEAC20CEACC5001BF63B /* tencent_cloud_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A816FEAB20CEACC5001BF63B /* tencent_cloud_logo.jpg */; };
+		A816FEB320CEAF2D001BF63B /* ToDoListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FEB220CEAF2D001BF63B /* ToDoListTableViewCell.m */; };
+		A862606420D29DA200313A9E /* UIView+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = A862606320D29DA200313A9E /* UIView+Base.m */; };
+		A862606620D3747C00313A9E /* shareIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A862606520D3747B00313A9E /* shareIcon.png */; };
+		A862606A20D376D200313A9E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A862606920D376D200313A9E /* User.m */; };
+		A862606D20D376E600313A9E /* UserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A862606C20D376E600313A9E /* UserDetailViewController.m */; };
+		A862607020D39C4100313A9E /* UserDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A862606F20D39C4100313A9E /* UserDetailView.m */; };
+		A862607320D3A76400313A9E /* QCloudAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A862607220D3A76400313A9E /* QCloudAlert.m */; };
+		A862607620D3ABE300313A9E /* OnlineImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A862607520D3ABE300313A9E /* OnlineImageLoader.m */; };
+		A87E7DE820CE1BE400F10F01 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E7DE720CE1BE400F10F01 /* LoginViewController.m */; };
+		A87E7DEB20CE1F6500F10F01 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E7DEA20CE1F6500F10F01 /* LoginView.m */; };
+		A87E7DF920CE246300F10F01 /* UIImage+FIleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E7DF820CE246300F10F01 /* UIImage+FIleCategory.m */; };
+		A87E7E0020CE24A100F10F01 /* QCloudWhiteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E7DFA20CE24A000F10F01 /* QCloudWhiteButton.m */; };
+		A87E7E0120CE24A100F10F01 /* UIColor+ColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E7DFC20CE24A000F10F01 /* UIColor+ColorCategory.m */; };
+		A87E7E0220CE24A100F10F01 /* QCloudBlueButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E7DFF20CE24A000F10F01 /* QCloudBlueButton.m */; };
+		A887FAE820CF6A1E0093A129 /* ToDoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FAE720CF6A1E0093A129 /* ToDoListView.m */; };
+		A887FAEB20CF6A2B0093A129 /* ToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FAEA20CF6A2B0093A129 /* ToDoListViewController.m */; };
+		A887FAF220CF755F0093A129 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FAF120CF755F0093A129 /* ToDoItem.m */; };
+		A887FAF520CF756B0093A129 /* ToDoItemStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FAF420CF756B0093A129 /* ToDoItemStorage.m */; };
+		A887FAF820CF757A0093A129 /* ToDoItemOnlineStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FAF720CF757A0093A129 /* ToDoItemOnlineStorage.m */; };
+		A887FAFB20CF75870093A129 /* ToDoItemLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FAFA20CF75870093A129 /* ToDoItemLocalStorage.m */; };
+		A88DDB7920DA0AA700D316DD /* ToDoItemAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = A88DDB7820DA0AA700D316DD /* ToDoItemAttachment.m */; };
+		A8A1EB3120CFC6BA006FC6CC /* FloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A1EB3020CFC6BA006FC6CC /* FloatingButton.m */; };
+		A8AE865820DCE25F00E45007 /* PaymentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AE865720DCE25F00E45007 /* PaymentHelper.m */; };
+		A8B3B35B20CF8371009F20C1 /* TODOListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A8535120CF83360094F105 /* TODOListTableView.m */; };
+		A8FB383120CA2E16007261A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FB383020CA2E16007261A1 /* AppDelegate.m */; };
+		A8FB383420CA2E16007261A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FB383320CA2E16007261A1 /* ViewController.m */; };
+		A8FB383720CA2E16007261A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB383520CA2E16007261A1 /* Main.storyboard */; };
+		A8FB383920CA2E17007261A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FB383820CA2E17007261A1 /* Assets.xcassets */; };
+		A8FB383C20CA2E17007261A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB383A20CA2E17007261A1 /* LaunchScreen.storyboard */; };
+		A8FB383F20CA2E17007261A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FB383E20CA2E17007261A1 /* main.m */; };
+		A8FB384920CA2E17007261A1 /* QCloudTACToDoListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FB384820CA2E17007261A1 /* QCloudTACToDoListDemoTests.m */; };
+		A8FB385420CA2E17007261A1 /* QCloudTACToDoListDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FB385320CA2E17007261A1 /* QCloudTACToDoListDemoUITests.m */; };
+		A8FB386320CA5AB5007261A1 /* tac_services_configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8FB386120CA5AB5007261A1 /* tac_services_configurations.plist */; };
+		A8FB386720CA5D33007261A1 /* tac_services_configurations_qq.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8FB386520CA5D32007261A1 /* tac_services_configurations_qq.plist */; };
+		A8FB386820CA5D33007261A1 /* tac_services_configurations_wechat.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8FB386620CA5D32007261A1 /* tac_services_configurations_wechat.plist */; };
+		A8FC018B20D1271200F6C856 /* ToDoItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC018A20D1271200F6C856 /* ToDoItemDetailViewController.m */; };
+		A8FC018E20D1272700F6C856 /* ToDoItemDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC018D20D1272700F6C856 /* ToDoItemDetailView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8FB384520CA2E17007261A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8FB382420CA2E16007261A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FB382B20CA2E16007261A1;
+			remoteInfo = QCloudTACToDoListDemo;
+		};
+		A8FB385020CA2E17007261A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8FB382420CA2E16007261A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FB382B20CA2E16007261A1;
+			remoteInfo = QCloudTACToDoListDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A816FEAB20CEACC5001BF63B /* tencent_cloud_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tencent_cloud_logo.jpg; sourceTree = "<group>"; };
+		A816FEAD20CEAE01001BF63B /* UIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDefine.h; sourceTree = "<group>"; };
+		A816FEAE20CEAEF1001BF63B /* TODOListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TODOListTableView.h; sourceTree = "<group>"; };
+		A816FEB120CEAF2D001BF63B /* ToDoListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewCell.h; sourceTree = "<group>"; };
+		A816FEB220CEAF2D001BF63B /* ToDoListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewCell.m; sourceTree = "<group>"; };
+		A862606220D29DA200313A9E /* UIView+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Base.h"; sourceTree = "<group>"; };
+		A862606320D29DA200313A9E /* UIView+Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Base.m"; sourceTree = "<group>"; };
+		A862606520D3747B00313A9E /* shareIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareIcon.png; sourceTree = "<group>"; };
+		A862606820D376D200313A9E /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A862606920D376D200313A9E /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A862606B20D376E600313A9E /* UserDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailViewController.h; sourceTree = "<group>"; };
+		A862606C20D376E600313A9E /* UserDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailViewController.m; sourceTree = "<group>"; };
+		A862606E20D39C4100313A9E /* UserDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailView.h; sourceTree = "<group>"; };
+		A862606F20D39C4100313A9E /* UserDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailView.m; sourceTree = "<group>"; };
+		A862607120D3A76400313A9E /* QCloudAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCloudAlert.h; sourceTree = "<group>"; };
+		A862607220D3A76400313A9E /* QCloudAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCloudAlert.m; sourceTree = "<group>"; };
+		A862607420D3ABE300313A9E /* OnlineImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnlineImageLoader.h; sourceTree = "<group>"; };
+		A862607520D3ABE300313A9E /* OnlineImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlineImageLoader.m; sourceTree = "<group>"; };
+		A87E7DE620CE1BE400F10F01 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A87E7DE720CE1BE400F10F01 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A87E7DE920CE1F6500F10F01 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		A87E7DEA20CE1F6500F10F01 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		A87E7DF720CE246300F10F01 /* UIImage+FIleCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FIleCategory.h"; sourceTree = "<group>"; };
+		A87E7DF820CE246300F10F01 /* UIImage+FIleCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FIleCategory.m"; sourceTree = "<group>"; };
+		A87E7DFA20CE24A000F10F01 /* QCloudWhiteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCloudWhiteButton.m; sourceTree = "<group>"; };
+		A87E7DFB20CE24A000F10F01 /* QCloudWhiteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCloudWhiteButton.h; sourceTree = "<group>"; };
+		A87E7DFC20CE24A000F10F01 /* UIColor+ColorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorCategory.m"; sourceTree = "<group>"; };
+		A87E7DFD20CE24A000F10F01 /* QCloudBlueButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCloudBlueButton.h; sourceTree = "<group>"; };
+		A87E7DFE20CE24A000F10F01 /* UIColor+ColorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorCategory.h"; sourceTree = "<group>"; };
+		A87E7DFF20CE24A000F10F01 /* QCloudBlueButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCloudBlueButton.m; sourceTree = "<group>"; };
+		A887FAE620CF6A1E0093A129 /* ToDoListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoListView.h; sourceTree = "<group>"; };
+		A887FAE720CF6A1E0093A129 /* ToDoListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListView.m; sourceTree = "<group>"; };
+		A887FAE920CF6A2B0093A129 /* ToDoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoListViewController.h; sourceTree = "<group>"; };
+		A887FAEA20CF6A2B0093A129 /* ToDoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListViewController.m; sourceTree = "<group>"; };
+		A887FAF020CF755F0093A129 /* ToDoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		A887FAF120CF755F0093A129 /* ToDoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		A887FAF320CF756B0093A129 /* ToDoItemStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItemStorage.h; sourceTree = "<group>"; };
+		A887FAF420CF756B0093A129 /* ToDoItemStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItemStorage.m; sourceTree = "<group>"; };
+		A887FAF620CF757A0093A129 /* ToDoItemOnlineStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItemOnlineStorage.h; sourceTree = "<group>"; };
+		A887FAF720CF757A0093A129 /* ToDoItemOnlineStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItemOnlineStorage.m; sourceTree = "<group>"; };
+		A887FAF920CF75870093A129 /* ToDoItemLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItemLocalStorage.h; sourceTree = "<group>"; };
+		A887FAFA20CF75870093A129 /* ToDoItemLocalStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItemLocalStorage.m; sourceTree = "<group>"; };
+		A88DDB7720DA0AA700D316DD /* ToDoItemAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItemAttachment.h; sourceTree = "<group>"; };
+		A88DDB7820DA0AA700D316DD /* ToDoItemAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItemAttachment.m; sourceTree = "<group>"; };
+		A8A1EB2F20CFC6BA006FC6CC /* FloatingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatingButton.h; sourceTree = "<group>"; };
+		A8A1EB3020CFC6BA006FC6CC /* FloatingButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingButton.m; sourceTree = "<group>"; };
+		A8A8535120CF83360094F105 /* TODOListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TODOListTableView.m; sourceTree = "<group>"; };
+		A8AE865620DCE25F00E45007 /* PaymentHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentHelper.h; sourceTree = "<group>"; };
+		A8AE865720DCE25F00E45007 /* PaymentHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentHelper.m; sourceTree = "<group>"; };
+		A8FB382C20CA2E16007261A1 /* QCloudTACToDoListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCloudTACToDoListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FB382F20CA2E16007261A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8FB383020CA2E16007261A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8FB383220CA2E16007261A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8FB383320CA2E16007261A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8FB383620CA2E16007261A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8FB383820CA2E17007261A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8FB383B20CA2E17007261A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8FB383D20CA2E17007261A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FB383E20CA2E17007261A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8FB384420CA2E17007261A1 /* QCloudTACToDoListDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCloudTACToDoListDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FB384820CA2E17007261A1 /* QCloudTACToDoListDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCloudTACToDoListDemoTests.m; sourceTree = "<group>"; };
+		A8FB384A20CA2E17007261A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FB384F20CA2E17007261A1 /* QCloudTACToDoListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCloudTACToDoListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FB385320CA2E17007261A1 /* QCloudTACToDoListDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCloudTACToDoListDemoUITests.m; sourceTree = "<group>"; };
+		A8FB385520CA2E17007261A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FB386120CA5AB5007261A1 /* tac_services_configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tac_services_configurations.plist; sourceTree = "<group>"; };
+		A8FB386520CA5D32007261A1 /* tac_services_configurations_qq.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tac_services_configurations_qq.plist; sourceTree = "<group>"; };
+		A8FB386620CA5D32007261A1 /* tac_services_configurations_wechat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tac_services_configurations_wechat.plist; sourceTree = "<group>"; };
+		A8FC018920D1271200F6C856 /* ToDoItemDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItemDetailViewController.h; sourceTree = "<group>"; };
+		A8FC018A20D1271200F6C856 /* ToDoItemDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItemDetailViewController.m; sourceTree = "<group>"; };
+		A8FC018C20D1272700F6C856 /* ToDoItemDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItemDetailView.h; sourceTree = "<group>"; };
+		A8FC018D20D1272700F6C856 /* ToDoItemDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItemDetailView.m; sourceTree = "<group>"; };
+		C5B5565073007564A389B59A /* Pods-QCloudTACToDoListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCloudTACToDoListDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCloudTACToDoListDemo/Pods-QCloudTACToDoListDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA99A0F2D308C78B28922448 /* Pods_QCloudTACToDoListDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCloudTACToDoListDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB353ADA8690E51BD588CD5 /* Pods-QCloudTACToDoListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCloudTACToDoListDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QCloudTACToDoListDemo/Pods-QCloudTACToDoListDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8FB382920CA2E16007261A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFDF0A18FAE2612854CEDFF /* Pods_QCloudTACToDoListDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB384120CA2E17007261A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB384C20CA2E17007261A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AC714F5412EEEB3D5497D6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5B5565073007564A389B59A /* Pods-QCloudTACToDoListDemo.debug.xcconfig */,
+				EFB353ADA8690E51BD588CD5 /* Pods-QCloudTACToDoListDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A862606720D376BD00313A9E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				A862606820D376D200313A9E /* User.h */,
+				A862606920D376D200313A9E /* User.m */,
+				A862606B20D376E600313A9E /* UserDetailViewController.h */,
+				A862606C20D376E600313A9E /* UserDetailViewController.m */,
+				A862606E20D39C4100313A9E /* UserDetailView.h */,
+				A862606F20D39C4100313A9E /* UserDetailView.m */,
+				A8AE865620DCE25F00E45007 /* PaymentHelper.h */,
+				A8AE865720DCE25F00E45007 /* PaymentHelper.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		A862607720D3ACE700313A9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A862607420D3ABE300313A9E /* OnlineImageLoader.h */,
+				A862607520D3ABE300313A9E /* OnlineImageLoader.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A87E7DE220CE1B6400F10F01 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A862607720D3ACE700313A9E /* Utils */,
+				A862606720D376BD00313A9E /* User */,
+				A8FC018820D126F500F6C856 /* ToDoDetail */,
+				A87E7DED20CE23F700F10F01 /* Base */,
+				A87E7DE420CE1B7800F10F01 /* ToDoList */,
+				A87E7DE320CE1B7200F10F01 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A87E7DE320CE1B7200F10F01 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A87E7DEC20CE23EA00F10F01 /* Resources */,
+				A87E7DE620CE1BE400F10F01 /* LoginViewController.h */,
+				A87E7DE720CE1BE400F10F01 /* LoginViewController.m */,
+				A87E7DE920CE1F6500F10F01 /* LoginView.h */,
+				A87E7DEA20CE1F6500F10F01 /* LoginView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A87E7DE420CE1B7800F10F01 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				A887FAEF20CF75430093A129 /* Controller */,
+				A887FAED20CF751F0093A129 /* View */,
+				A887FAEC20CF75180093A129 /* Model */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		A87E7DEC20CE23EA00F10F01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A816FEAB20CEACC5001BF63B /* tencent_cloud_logo.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A87E7DED20CE23F700F10F01 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A87E7DF720CE246300F10F01 /* UIImage+FIleCategory.h */,
+				A87E7DF820CE246300F10F01 /* UIImage+FIleCategory.m */,
+				A87E7DFD20CE24A000F10F01 /* QCloudBlueButton.h */,
+				A87E7DFF20CE24A000F10F01 /* QCloudBlueButton.m */,
+				A87E7DFB20CE24A000F10F01 /* QCloudWhiteButton.h */,
+				A87E7DFA20CE24A000F10F01 /* QCloudWhiteButton.m */,
+				A87E7DFE20CE24A000F10F01 /* UIColor+ColorCategory.h */,
+				A87E7DFC20CE24A000F10F01 /* UIColor+ColorCategory.m */,
+				A816FEAD20CEAE01001BF63B /* UIDefine.h */,
+				A862606220D29DA200313A9E /* UIView+Base.h */,
+				A862606320D29DA200313A9E /* UIView+Base.m */,
+				A862607120D3A76400313A9E /* QCloudAlert.h */,
+				A862607220D3A76400313A9E /* QCloudAlert.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A887FAEC20CF75180093A129 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A887FAF020CF755F0093A129 /* ToDoItem.h */,
+				A887FAF120CF755F0093A129 /* ToDoItem.m */,
+				A887FAF320CF756B0093A129 /* ToDoItemStorage.h */,
+				A887FAF420CF756B0093A129 /* ToDoItemStorage.m */,
+				A887FAF620CF757A0093A129 /* ToDoItemOnlineStorage.h */,
+				A887FAF720CF757A0093A129 /* ToDoItemOnlineStorage.m */,
+				A887FAF920CF75870093A129 /* ToDoItemLocalStorage.h */,
+				A887FAFA20CF75870093A129 /* ToDoItemLocalStorage.m */,
+				A88DDB7720DA0AA700D316DD /* ToDoItemAttachment.h */,
+				A88DDB7820DA0AA700D316DD /* ToDoItemAttachment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A887FAED20CF751F0093A129 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A816FEAE20CEAEF1001BF63B /* TODOListTableView.h */,
+				A8A8535120CF83360094F105 /* TODOListTableView.m */,
+				A816FEB120CEAF2D001BF63B /* ToDoListTableViewCell.h */,
+				A816FEB220CEAF2D001BF63B /* ToDoListTableViewCell.m */,
+				A887FAE620CF6A1E0093A129 /* ToDoListView.h */,
+				A887FAE720CF6A1E0093A129 /* ToDoListView.m */,
+				A8A1EB2F20CFC6BA006FC6CC /* FloatingButton.h */,
+				A8A1EB3020CFC6BA006FC6CC /* FloatingButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A887FAEF20CF75430093A129 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A887FAE920CF6A2B0093A129 /* ToDoListViewController.h */,
+				A887FAEA20CF6A2B0093A129 /* ToDoListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8FB382320CA2E16007261A1 = {
+			isa = PBXGroup;
+			children = (
+				A8FB382E20CA2E16007261A1 /* QCloudTACToDoListDemo */,
+				A8FB384720CA2E17007261A1 /* QCloudTACToDoListDemoTests */,
+				A8FB385220CA2E17007261A1 /* QCloudTACToDoListDemoUITests */,
+				A8FB382D20CA2E16007261A1 /* Products */,
+				9AC714F5412EEEB3D5497D6D /* Pods */,
+				F083A33F4C0ECA96265AA0B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8FB382D20CA2E16007261A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB382C20CA2E16007261A1 /* QCloudTACToDoListDemo.app */,
+				A8FB384420CA2E17007261A1 /* QCloudTACToDoListDemoTests.xctest */,
+				A8FB384F20CA2E17007261A1 /* QCloudTACToDoListDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8FB382E20CA2E16007261A1 /* QCloudTACToDoListDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A862606520D3747B00313A9E /* shareIcon.png */,
+				A87E7DE220CE1B6400F10F01 /* Modules */,
+				A8FB386120CA5AB5007261A1 /* tac_services_configurations.plist */,
+				A8FB386520CA5D32007261A1 /* tac_services_configurations_qq.plist */,
+				A8FB386620CA5D32007261A1 /* tac_services_configurations_wechat.plist */,
+				A8FB382F20CA2E16007261A1 /* AppDelegate.h */,
+				A8FB383020CA2E16007261A1 /* AppDelegate.m */,
+				A8FB383220CA2E16007261A1 /* ViewController.h */,
+				A8FB383320CA2E16007261A1 /* ViewController.m */,
+				A8FB383520CA2E16007261A1 /* Main.storyboard */,
+				A8FB383820CA2E17007261A1 /* Assets.xcassets */,
+				A8FB383A20CA2E17007261A1 /* LaunchScreen.storyboard */,
+				A8FB383D20CA2E17007261A1 /* Info.plist */,
+				A8FB383E20CA2E17007261A1 /* main.m */,
+			);
+			path = QCloudTACToDoListDemo;
+			sourceTree = "<group>";
+		};
+		A8FB384720CA2E17007261A1 /* QCloudTACToDoListDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB384820CA2E17007261A1 /* QCloudTACToDoListDemoTests.m */,
+				A8FB384A20CA2E17007261A1 /* Info.plist */,
+			);
+			path = QCloudTACToDoListDemoTests;
+			sourceTree = "<group>";
+		};
+		A8FB385220CA2E17007261A1 /* QCloudTACToDoListDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB385320CA2E17007261A1 /* QCloudTACToDoListDemoUITests.m */,
+				A8FB385520CA2E17007261A1 /* Info.plist */,
+			);
+			path = QCloudTACToDoListDemoUITests;
+			sourceTree = "<group>";
+		};
+		A8FC018820D126F500F6C856 /* ToDoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A8FC018920D1271200F6C856 /* ToDoItemDetailViewController.h */,
+				A8FC018A20D1271200F6C856 /* ToDoItemDetailViewController.m */,
+				A8FC018C20D1272700F6C856 /* ToDoItemDetailView.h */,
+				A8FC018D20D1272700F6C856 /* ToDoItemDetailView.m */,
+			);
+			path = ToDoDetail;
+			sourceTree = "<group>";
+		};
+		F083A33F4C0ECA96265AA0B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA99A0F2D308C78B28922448 /* Pods_QCloudTACToDoListDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8FB382B20CA2E16007261A1 /* QCloudTACToDoListDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FB385820CA2E17007261A1 /* Build configuration list for PBXNativeTarget "QCloudTACToDoListDemo" */;
+			buildPhases = (
+				E7C74E1018DBE6958C9E8718 /* [CP] Check Pods Manifest.lock */,
+				0B807004850A0C8BF6899DB5 /* [TAC] Run Before Script */,
+				A8FB382820CA2E16007261A1 /* Sources */,
+				A8FB382920CA2E16007261A1 /* Frameworks */,
+				A8FB382A20CA2E16007261A1 /* Resources */,
+				01E6A6C209AC790D1FEDDF6F /* [TAC] Run After Script */,
+				88F02DD7F242A5579351684E /* [CP] Embed Pods Frameworks */,
+				994616A98371818B7C0ABB8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCloudTACToDoListDemo;
+			productName = QCloudTACToDoListDemo;
+			productReference = A8FB382C20CA2E16007261A1 /* QCloudTACToDoListDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8FB384320CA2E17007261A1 /* QCloudTACToDoListDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FB385B20CA2E17007261A1 /* Build configuration list for PBXNativeTarget "QCloudTACToDoListDemoTests" */;
+			buildPhases = (
+				A8FB384020CA2E17007261A1 /* Sources */,
+				A8FB384120CA2E17007261A1 /* Frameworks */,
+				A8FB384220CA2E17007261A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8FB384620CA2E17007261A1 /* PBXTargetDependency */,
+			);
+			name = QCloudTACToDoListDemoTests;
+			productName = QCloudTACToDoListDemoTests;
+			productReference = A8FB384420CA2E17007261A1 /* QCloudTACToDoListDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8FB384E20CA2E17007261A1 /* QCloudTACToDoListDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FB385E20CA2E17007261A1 /* Build configuration list for PBXNativeTarget "QCloudTACToDoListDemoUITests" */;
+			buildPhases = (
+				A8FB384B20CA2E17007261A1 /* Sources */,
+				A8FB384C20CA2E17007261A1 /* Frameworks */,
+				A8FB384D20CA2E17007261A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8FB385120CA2E17007261A1 /* PBXTargetDependency */,
+			);
+			name = QCloudTACToDoListDemoUITests;
+			productName = QCloudTACToDoListDemoUITests;
+			productReference = A8FB384F20CA2E17007261A1 /* QCloudTACToDoListDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8FB382420CA2E16007261A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					A8FB382B20CA2E16007261A1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A8FB384320CA2E17007261A1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A8FB382B20CA2E16007261A1;
+					};
+					A8FB384E20CA2E17007261A1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A8FB382B20CA2E16007261A1;
+					};
+				};
+			};
+			buildConfigurationList = A8FB382720CA2E16007261A1 /* Build configuration list for PBXProject "QCloudTACToDoListDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8FB382320CA2E16007261A1;
+			productRefGroup = A8FB382D20CA2E16007261A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8FB382B20CA2E16007261A1 /* QCloudTACToDoListDemo */,
+				A8FB384320CA2E17007261A1 /* QCloudTACToDoListDemoTests */,
+				A8FB384E20CA2E17007261A1 /* QCloudTACToDoListDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8FB382A20CA2E16007261A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB386320CA5AB5007261A1 /* tac_services_configurations.plist in Resources */,
+				A8FB383C20CA2E17007261A1 /* LaunchScreen.storyboard in Resources */,
+				A8FB386720CA5D33007261A1 /* tac_services_configurations_qq.plist in Resources */,
+				A8FB383920CA2E17007261A1 /* Assets.xcassets in Resources */,
+				A8FB386820CA5D33007261A1 /* tac_services_configurations_wechat.plist in Resources */,
+				A816FEAC20CEACC5001BF63B /* tencent_cloud_logo.jpg in Resources */,
+				A862606620D3747C00313A9E /* shareIcon.png in Resources */,
+				A8FB383720CA2E16007261A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB384220CA2E17007261A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB384D20CA2E17007261A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E6A6C209AC790D1FEDDF6F /* [TAC] Run After Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[TAC] Run After Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n              if [ -f \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.after.sh\" ]; then\n                  bash \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.after.sh\"\n              fi\n              ";
+		};
+		0B807004850A0C8BF6899DB5 /* [TAC] Run Before Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[TAC] Run Before Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n              if [ -f \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.before.sh\" ]; then\n                  bash \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.before.sh\"\n                  fi\n                  ";
+		};
+		88F02DD7F242A5579351684E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QCloudTACToDoListDemo/Pods-QCloudTACToDoListDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCloudTACToDoListDemo/Pods-QCloudTACToDoListDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		994616A98371818B7C0ABB8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QCloudTACToDoListDemo/Pods-QCloudTACToDoListDemo-resources.sh",
+				"${PODS_ROOT}/TACPayment/Pod/Frameworks/OpenMidas.bundle",
+				"${PODS_ROOT}/TACSocialShare/Pod/Resources/ShareIcon.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OpenMidas.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareIcon.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCloudTACToDoListDemo/Pods-QCloudTACToDoListDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C74E1018DBE6958C9E8718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QCloudTACToDoListDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8FB382820CA2E16007261A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862606D20D376E600313A9E /* UserDetailViewController.m in Sources */,
+				A862606420D29DA200313A9E /* UIView+Base.m in Sources */,
+				A87E7E0020CE24A100F10F01 /* QCloudWhiteButton.m in Sources */,
+				A8A1EB3120CFC6BA006FC6CC /* FloatingButton.m in Sources */,
+				A887FAF820CF757A0093A129 /* ToDoItemOnlineStorage.m in Sources */,
+				A87E7DE820CE1BE400F10F01 /* LoginViewController.m in Sources */,
+				A887FAF220CF755F0093A129 /* ToDoItem.m in Sources */,
+				A88DDB7920DA0AA700D316DD /* ToDoItemAttachment.m in Sources */,
+				A862606A20D376D200313A9E /* User.m in Sources */,
+				A887FAE820CF6A1E0093A129 /* ToDoListView.m in Sources */,
+				A887FAF520CF756B0093A129 /* ToDoItemStorage.m in Sources */,
+				A887FAFB20CF75870093A129 /* ToDoItemLocalStorage.m in Sources */,
+				A862607620D3ABE300313A9E /* OnlineImageLoader.m in Sources */,
+				A8FB383420CA2E16007261A1 /* ViewController.m in Sources */,
+				A8FB383F20CA2E17007261A1 /* main.m in Sources */,
+				A8FC018B20D1271200F6C856 /* ToDoItemDetailViewController.m in Sources */,
+				A87E7DF920CE246300F10F01 /* UIImage+FIleCategory.m in Sources */,
+				A87E7DEB20CE1F6500F10F01 /* LoginView.m in Sources */,
+				A862607020D39C4100313A9E /* UserDetailView.m in Sources */,
+				A87E7E0220CE24A100F10F01 /* QCloudBlueButton.m in Sources */,
+				A8FC018E20D1272700F6C856 /* ToDoItemDetailView.m in Sources */,
+				A8FB383120CA2E16007261A1 /* AppDelegate.m in Sources */,
+				A862607320D3A76400313A9E /* QCloudAlert.m in Sources */,
+				A8B3B35B20CF8371009F20C1 /* TODOListTableView.m in Sources */,
+				A8AE865820DCE25F00E45007 /* PaymentHelper.m in Sources */,
+				A887FAEB20CF6A2B0093A129 /* ToDoListViewController.m in Sources */,
+				A816FEB320CEAF2D001BF63B /* ToDoListTableViewCell.m in Sources */,
+				A87E7E0120CE24A100F10F01 /* UIColor+ColorCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB384020CA2E17007261A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB384920CA2E17007261A1 /* QCloudTACToDoListDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB384B20CA2E17007261A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB385420CA2E17007261A1 /* QCloudTACToDoListDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8FB384620CA2E17007261A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FB382B20CA2E16007261A1 /* QCloudTACToDoListDemo */;
+			targetProxy = A8FB384520CA2E17007261A1 /* PBXContainerItemProxy */;
+		};
+		A8FB385120CA2E17007261A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FB382B20CA2E16007261A1 /* QCloudTACToDoListDemo */;
+			targetProxy = A8FB385020CA2E17007261A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8FB383520CA2E16007261A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FB383620CA2E16007261A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8FB383A20CA2E17007261A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FB383B20CA2E17007261A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8FB385620CA2E17007261A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8FB385720CA2E17007261A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8FB385920CA2E17007261A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B5565073007564A389B59A /* Pods-QCloudTACToDoListDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAG6J66XWF;
+				INFOPLIST_FILE = QCloudTACToDoListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTACToDoListDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8FB385A20CA2E17007261A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB353ADA8690E51BD588CD5 /* Pods-QCloudTACToDoListDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAG6J66XWF;
+				INFOPLIST_FILE = QCloudTACToDoListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTACToDoListDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8FB385C20CA2E17007261A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTACToDoListDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTACToDoListDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCloudTACToDoListDemo.app/QCloudTACToDoListDemo";
+			};
+			name = Debug;
+		};
+		A8FB385D20CA2E17007261A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTACToDoListDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTACToDoListDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCloudTACToDoListDemo.app/QCloudTACToDoListDemo";
+			};
+			name = Release;
+		};
+		A8FB385F20CA2E17007261A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTACToDoListDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTACToDoListDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QCloudTACToDoListDemo;
+			};
+			name = Debug;
+		};
+		A8FB386020CA2E17007261A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTACToDoListDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTACToDoListDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QCloudTACToDoListDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8FB382720CA2E16007261A1 /* Build configuration list for PBXProject "QCloudTACToDoListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB385620CA2E17007261A1 /* Debug */,
+				A8FB385720CA2E17007261A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FB385820CA2E17007261A1 /* Build configuration list for PBXNativeTarget "QCloudTACToDoListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB385920CA2E17007261A1 /* Debug */,
+				A8FB385A20CA2E17007261A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FB385B20CA2E17007261A1 /* Build configuration list for PBXNativeTarget "QCloudTACToDoListDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB385C20CA2E17007261A1 /* Debug */,
+				A8FB385D20CA2E17007261A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FB385E20CA2E17007261A1 /* Build configuration list for PBXNativeTarget "QCloudTACToDoListDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB385F20CA2E17007261A1 /* Debug */,
+				A8FB386020CA2E17007261A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8FB382420CA2E16007261A1 /* Project object */;
+}

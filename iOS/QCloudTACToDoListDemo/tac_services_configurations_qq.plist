@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>services</key>
+	<dict>
+		<key>social</key>
+		<dict>
+			<key>qq</key>
+			<dict>
+				<key>appId</key>
+				<string>1106983820</string>
+				<key>permissions</key>
+				<array>
+					<string>get_user_info</string>
+					<string>get_simple_userinfo</string>
+					<string>add_t</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
