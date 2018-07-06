@@ -38,7 +38,7 @@
 
 ## 下载体验
 
-1. Android版本请下载 [此处](https://github.com/tencentyun/tac-todolist/releases/latest) 下载最新的安装包。
+1. Android版本请点击 [此处](https://github.com/tencentyun/tac-todolist/releases/latest) 下载最新的安装包。
 
 2. iOS版本请下载 [代码](https://github.com/tencentyun/tac-todolist/tree/master/iOS) 本地编译安装。 
 
