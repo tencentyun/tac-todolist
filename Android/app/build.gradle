@@ -52,6 +52,7 @@ dependencies {
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
     // tac
     implementation "com.tencent.tac:tac-core:$tac_version"
+    implementation "com.tencent.tac:tac-crash:$tac_version"
     implementation("com.tencent.tac:tac-authorization:$tac_version") {
         exclude group: 'com.android.support.constraint', module: 'constraint-layout'
         exclude group: 'com.android.support.constraint', module: 'constraint-layout-solver'
