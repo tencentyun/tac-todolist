@@ -1,0 +1,8 @@
+file=/Users/wjielai/Workspace/QCloudAndroid/apps/TACTodoList/app/build/outputs/mapping/release/mapping.txt
+sha1=c282a4e517a1075e6c0f363f18a92ea050c9ab17
+appId=6aa8f48240
+
+file=/Users/wjielai/Workspace/QCloudAndroid/apps/TACTodoList/app/build/outputs/mapping/release/mapping.txt
+sha1=c282a4e517a1075e6c0f363f18a92ea050c9ab17
+appId=6aa8f48240
+

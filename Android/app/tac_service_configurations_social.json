@@ -1,0 +1,13 @@
+{
+  "services": {
+    "social": {
+      "qq": {
+        "appId": "1106715480"
+      },
+      "wechat": {
+        "appId": "wxf2fb4813695eed08",
+        "appKey": "xxx"
+      }
+    }
+  }
+}

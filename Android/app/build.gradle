@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 'android-P'
+    defaultConfig {
+        applicationId "com.tencent.cloud.todolist"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        release {
+            storeFile file("wangdas.jks")
+            storePassword "123456"
+            keyAlias "wangdas"
+            keyPassword "123456"
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+
+dependencies {
+    def androidx_version = '1.0.0-alpha3'
+    def tac_version = '1.2.0'
+    def lifecycle_version = "2.0.0-alpha1"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    // kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // core
+    implementation "androidx.appcompat:appcompat:$androidx_version"
+    implementation "com.google.android.material:material:$androidx_version"
+    implementation "androidx.core:core-ktx:$androidx_version"
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    // Lifecycle
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    // tac
+    implementation "com.tencent.tac:tac-core:$tac_version"
+    implementation("com.tencent.tac:tac-authorization:$tac_version") {
+        exclude group: 'com.android.support.constraint', module: 'constraint-layout'
+        exclude group: 'com.android.support.constraint', module: 'constraint-layout-solver'
+    }
+    implementation "com.tencent.tac:tac-storage:$tac_version"
+    implementation "com.tencent.tac:tac-payment:$tac_version"
+    // third
+    implementation('com.squareup.picasso:picasso:2.71828') {
+        exclude group: 'com.android.support', module: 'support-annotation'
+    }
+    implementation 'com.google.code.gson:gson:2.8.5'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+}
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.tencent.tac.services'

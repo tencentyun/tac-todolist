@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0",
+    "warning": "请不要修改这个文件中的内容",
+    "project": {
+        "projectId": 102190
+    },
+    "application": {
+        "appId": 101983,
+        "packageId": "com.tencent.cloud.todolist"
+    },
+    "services": {
+        "analytics": {
+            "appKey": "Aqcloud101983"
+        },
+        "messaging": {
+            "appId": "2100295058",
+            "appKey": "ALB5E69H99RP"
+        },
+        "crash": {
+            "appId": "6aa8f48240"
+        },
+        "payment": {
+            "offerId": "TC101983"
+        },
+        "storage": {
+            "bucket": "tac-todolist-st-1253653367",
+            "region": "ap-guangzhou"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#78909C</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="attachment_placeholder">#ddd</color>
+</resources>
