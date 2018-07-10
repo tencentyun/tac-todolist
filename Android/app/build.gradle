@@ -7,9 +7,9 @@ android {
     defaultConfig {
         applicationId "com.tencent.cloud.todolist"
         minSdkVersion 19
-        targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 25
+        versionCode 102
+        versionName "1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {
